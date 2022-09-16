@@ -1,7 +1,11 @@
 # text-to-speech
 ## Conversor de texto para fala utilizando JavaScript puro.
 
-Utilizado Web API **SpeechSynthesis**, interface controladora para o serviço de fala, herdada da interface pai, **EventTarget**.
+Utilizado Web API: <br />
+
+**SpeechSynthesis** -> interface controladora para o serviço de fala, herdada da interface pai, **EventTarget**. <br />
+<br />
+**SpeechSynthesisUtterance** -> inicia nova instancia (new SpeechSynthesisUtterance), que solicita uma fala através de um enunciado.<br />
 
 A Propriedade: <br />
   **speechSynthesis.speaking** -> valor booleano que retorna true se algum utterance estiver em processo, mesmo se pausado.
